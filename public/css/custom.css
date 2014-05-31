@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*
+color scheme:
+	#323A46 - Bright Gray
+	#22282F - Shark
+	#EB4A33 - Cinnabar
+	#FFFFFF - White
+	#E9FOF5 - Catskill White
+*/
+
+body{
+	background-color: #22282F;
+	color: #FFFFFF;
+}
+
+header{
+	background-color: #323A46;
+}
