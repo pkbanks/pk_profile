@@ -14,6 +14,37 @@ body{
 	color: #FFFFFF;
 }
 
+body a{
+	color: #E9F0F5;
+	line-height: 200%;
+}
+
+.contact a{
+	line-height: 150%;
+}
+
+body a:hover{
+	text-decoration: none;
+}
+
 header{
 	background-color: #323A46;
+	height: 100%;
+}
+
+header img{
+	width:90%;
+}
+
+header ul{
+	margin-left:10px;
+}
+
+.social-media-links{
+	margin-top:10px;
+	border-top-style: solid;
+	border-top-color: #fff
+}
+
+.main{
 }
