@@ -115,6 +115,12 @@ div.address, div.phone{
 	font-style: italic;
 }
 
+.footnote p{
+	font-style: italic;
+	font-size: 12px;
+	text-align: center;
+}
+
 @media(max-width: 768px){
 		div.address, div.phone{
 			text-align: left;
