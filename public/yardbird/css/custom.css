@@ -21,6 +21,10 @@ font-family: 'Arbutus', cursive;
 
 }
 
+body{
+	background: url(../images/retina_wood.png);
+}
+
 .container{
 }
 
@@ -34,11 +38,30 @@ header h1{
 
 .category{
 	font-family: 'Playfair Display SC', serif;
+	
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+
+	border-style: solid;
+	border-color: #666;
+	border-width: thin;
+
+	border-radius: 5px;
+	background-color: #CCB299;
 }
 
 .category-name{
 	text-transform: uppercase;
 	text-align: center;
+}
+
+.category-name h3{
+	border-bottom: thin;
+	border-bottom-width: normal;
+	border-bottom-style: groove;
+	border-bottom-color: #000;
+	padding-bottom: 5px;
 }
 
 .food-item{
