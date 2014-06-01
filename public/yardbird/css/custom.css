@@ -38,6 +38,21 @@ header h1{
 	text-transform: uppercase;
 }
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: inherit;
+}
+
+div.address, div.phone{
+	color: #000;
+	text-align: right;
+	margin-top:10px;
+}
+
 .category{
 	font-family: 'Playfair Display SC', serif;
 	
@@ -100,3 +115,10 @@ header h1{
 	font-style: italic;
 }
 
+@media(max-width: 768px){
+		div.address, div.phone{
+			text-align: left;
+			margin-top:0px;
+			margin-bottom: 10px;
+	}
+}
