@@ -120,5 +120,19 @@ div.address, div.phone{
 			text-align: left;
 			margin-top:0px;
 			margin-bottom: 10px;
-	}
+		}
+
+		li.food-item{
+			border-width: thin;
+			border-radius: 3px;
+		}
+
+		li.food-item:nth-child(even){
+			
+		}
+
+		li.food-item:nth-child(odd){
+			background-color: #D6C1AD;
+		}
+
 }
