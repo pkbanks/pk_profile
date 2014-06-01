@@ -2,6 +2,7 @@
 
 /*
 color scheme:
+#385c6d
 */
 
 
@@ -9,8 +10,18 @@ body{
 	background-color:#FFF;
 }
 
+a{
+	text-decoration: none;
+
+}
+
+
 img.logo{
 	width:80%;
+}
+
+.restaurant-info{
+	font-size:20px;
 }
 
 .food-menu{
