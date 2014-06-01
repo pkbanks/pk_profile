@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+google fonts
+font-family: 'Playfair Display SC', serif;
+font-family: 'Noto Serif', serif;
+*/
+
+@media(max-width: 480px){
+	background-color:blue;
+	color: white;
+}
+
+.container{
+}
+
+.category{
+	font-family: 'Playfair Display SC', serif;
+}
+
+.category-name{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.food-item{
+		font-size:20px;
+
+}
+
+.food-description{
+	font-family: 'Noto Serif', serif;
+}
+
+.food-description li{
+	display: inline;
+	font-size: 16px;
+}
+
+.food-description li::after{
+	content: ", ";
+}
+
+.food-description li:last-child::after{
+	content: none;
+}
+
+.food-price{
+	text-align: right
+}
+
+.food-price::before{
+	/*content:" / $";*/
+}
+
+.food-description{
+	font-style: italic;
+}
+
