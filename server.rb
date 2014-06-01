@@ -12,3 +12,7 @@ get '/mmmm' do
 	#send_file "public/mmmmMenu/menu.html"
 	redirect "mmmm/menu.html"
 end
+
+get '/yardbird' do
+	redirect "yardbird/yardbird.html"
+end
