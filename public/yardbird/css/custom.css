@@ -125,6 +125,7 @@ div.address, div.phone{
 		li.food-item{
 			border-width: thin;
 			border-radius: 3px;
+			padding:5px;
 		}
 
 		li.food-item:nth-child(even){
@@ -135,4 +136,8 @@ div.address, div.phone{
 			background-color: #D6C1AD;
 		}
 
+		li.food-item span{
+			margin:0;
+			padding:0;
+		}
 }
