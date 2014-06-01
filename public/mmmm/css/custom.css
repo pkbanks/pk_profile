@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+color scheme:
+*/
+
+
+body{
+	background-color:#FFF;
+}
+
+img.logo{
+	width:80%;
+}
+
+.food-menu{
+	margin:0px;
+}
+
+.category{
+}
+
+.item-name, .item-price{
+	font-size: 20px;
+}
+
+li.food-item{
+	padding:5px;
+
+	border-radius: 10px / 5px;
+}
+
+li:nth-child(odd){
+	background-color:;
+}
+
+li:nth-child(even){
+	background-color:;
+}
+
+[class*="description"]{
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.item-price{
+	text-align: right;
+}
+
+.footnote{
+	margin-top:15px;
+	font-size: 12px;
+	font-style: italic;
+}
