@@ -4,14 +4,32 @@
 google fonts
 font-family: 'Playfair Display SC', serif;
 font-family: 'Noto Serif', serif;
+font-family: 'Arbutus', cursive;
 */
 
 @media(max-width: 480px){
-	background-color:blue;
-	color: white;
+	/*
+		Insert style rules for mobile devices, up to 480px.
+	*/
+	body{
+		
+	}
+
+	ul[class *= "description"]{
+		display: none;
+	}
+
 }
 
 .container{
+}
+
+header{
+}
+
+header h1{
+	font-family: 'Arbutus', cursive;
+	text-transform: uppercase;
 }
 
 .category{
