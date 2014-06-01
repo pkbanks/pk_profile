@@ -16,6 +16,8 @@ font-family: 'Arbutus', cursive;
 	}
 
 	ul[class *= "description"]{
+		/* by default, hide any content that is within a class
+		that includes "description" */
 		display: none;
 	}
 
