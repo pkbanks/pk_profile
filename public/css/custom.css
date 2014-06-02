@@ -9,6 +9,7 @@ color scheme:
 	#E9FOF5 - Catskill White
 */
 
+
 body{
 	background-color: #22282F;
 	color: #FFFFFF;
@@ -19,6 +20,10 @@ body a{
 	line-height: 200%;
 }
 
+.contact{
+	margin-top:20px;
+}
+
 .contact a{
 	line-height: 150%;
 }
@@ -27,7 +32,7 @@ body a:hover{
 	text-decoration: none;
 }
 
-header{
+section.profile{
 	background-color: #323A46;
 	height: 100%;
 }
@@ -47,4 +52,10 @@ header ul{
 }
 
 .main{
+}
+
+@media(min-width: 480px){
+	.main{
+		height=100%;
+	}
 }
