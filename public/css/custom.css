@@ -22,6 +22,7 @@ body{
 
 .profile img{
 	border-radius:5px;
+
 }
 
 .contact-info > div{
@@ -42,7 +43,11 @@ body{
 .gallery .cell{
 	min-height: 300px;
 	background-color:#22282F;
-
+	
+	border-color:#4B5A71;
+	border-style: solid;
+	border-width: medium;
+	border-radius:5px;
 }
 
 .gallery .cell .caption{
@@ -88,5 +93,9 @@ a:hover{
 
 	.gallery{
 		border-left: none; 
+	}
+
+	.gallery .cell{
+		min-height: 200px;
 	}
 }
