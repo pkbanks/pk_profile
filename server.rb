@@ -16,3 +16,7 @@ end
 get '/yardbird' do
 	redirect "yardbird/yardbird.html"
 end
+
+get '/practice' do
+	redirect "practice.html"
+end
