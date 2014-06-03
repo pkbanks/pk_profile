@@ -17,6 +17,7 @@ body{
 }
 
 .profile{
+	font-family: 'Noto Serif', serif;
 	color:#22282F;
 }
 
@@ -52,6 +53,8 @@ body{
 
 .gallery .cell .caption{
 	color:#fff;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .sponsors img{
@@ -83,6 +86,15 @@ a:hover{
 
 
 @media(max-width: 768px){
+
+	.container-fluid{
+		background-color: #323A46;
+	}
+
+	.profile{
+		color:#FFF;
+	}
+
 	.profile img{
 		display: none;
 	}
